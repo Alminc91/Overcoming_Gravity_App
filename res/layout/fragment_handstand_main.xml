@@ -1,0 +1,370 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.Calisthenics_Skills.MainActivity$PlaceholderFragment" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/SkillTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:maxWidth="200dp"
+                android:text="@string/skill"
+                android:textColor="#33b5e5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/LevelTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:text="@string/level"
+                android:textColor="#33b5e5"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/BigDivBeg"
+                style="@style/BigDivider"
+                android:layout_below="@id/SkillTitle"
+                android:background="#33b5e5" />
+
+            <Button
+                android:id="@+id/wallhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDivBeg"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/wallhs" />
+
+            <View
+                android:id="@+id/BigDiv1"
+                style="@style/Divider"
+                android:layout_below="@id/wallhs" />
+
+            <Button
+                android:id="@+id/freehs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/freehs" />
+
+            <View
+                android:id="@+id/BigDiv2"
+                style="@style/Divider"
+                android:layout_below="@id/freehs" />
+
+            <Button
+                android:id="@+id/ringshstand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv2"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/ringshstand" />
+
+            <View
+                android:id="@+id/BigDiv9"
+                style="@style/Divider"
+                android:layout_below="@id/ringshstand" />
+
+            <Button
+                android:id="@+id/rstraphs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv9"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/rstraphs" />
+
+            <View
+                android:id="@+id/BigDiv10"
+                style="@style/Divider"
+                android:layout_below="@id/rstraphs" />
+
+            <Button
+                android:id="@+id/chs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv10"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/chs" />
+
+            <View
+                android:id="@+id/BigDiv11"
+                style="@style/Divider"
+                android:layout_below="@id/chs" />
+
+            <Button
+                android:id="@+id/hsff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv11"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/hsff" />
+
+            <View
+                android:id="@+id/BigDiv12"
+                style="@style/Divider"
+                android:layout_below="@id/hsff" />
+
+            <Button
+                android:id="@+id/rhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv12"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/rhs" />
+
+            <View
+                android:id="@+id/BigDiv13"
+                style="@style/Divider"
+                android:layout_below="@id/rhs" />
+
+            <Button
+                android:id="@+id/ichs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv13"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/ichs" />
+
+            <View
+                android:id="@+id/BigDiv3"
+                style="@style/Divider"
+                android:layout_below="@id/ichs" />
+
+            <Button
+                android:id="@+id/hstf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv3"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/hstf" />
+
+            <View
+                android:id="@+id/BigDiv4"
+                style="@style/Divider"
+                android:layout_below="@id/hstf" />
+
+            <Button
+                android:id="@+id/hstwof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv4"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/hstwof" />
+
+            <View
+                android:id="@+id/BigDiv5"
+                style="@style/Divider"
+                android:layout_below="@id/hstwof" />
+
+            <Button
+                android:id="@+id/hsof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv5"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/hsof" />
+
+            <View
+                android:id="@+id/BigDiv6"
+                style="@style/Divider"
+                android:layout_below="@id/hsof" />
+
+            <Button
+                android:id="@+id/onearmhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BigDiv6"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:maxWidth="200dp"
+                android:onClick="ex"
+                android:text="@string/onearmhs" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SkillTitle"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev1_4" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev5" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button8"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev5" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev6" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button3"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev6" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button4"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev6" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button5"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev7" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button6"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev7" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button7"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev7" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button9"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev8" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button10"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev9" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button11"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@+id/SkillTitle"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/lev10" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
